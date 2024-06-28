@@ -1,0 +1,23 @@
+body{
+  background-color: #fffcdb;        /* 背景色 */
+}
+h1{
+  padding: 0.5em;                   /* 文字の周りの余白 */
+  color: #494949;                   /* 文字色 */
+  background: #fffaf4;              /* 背景 */
+  border-left: solid 5px #ffd778;   /* 左線（実践 太さ色）*/
+}
+h2{
+  border-bottom: double 5px #ffd778;
+}
+table{
+  border-collapse: collapse;        /* セルの線を重ねる */
+}
+th,td{
+  border: solid 1px;                /* 枠線指定 */
+  padding: 10px;                    /* 余白指定 */
+}
+th{
+  background-color: #e6e6fa;        /* 背景色指定 */
+  color: #000080;                   /* 文字色指定 */
+}
